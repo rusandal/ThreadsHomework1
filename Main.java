@@ -1,6 +1,6 @@
 public class Main {
-    public static void main(String[] args) throws InterruptedException{
-        ThreadGroup group1 =new ThreadGroup("my group");
+    public static void main(String[] args) throws InterruptedException {
+        ThreadGroup group1 = new ThreadGroup("my group");
         MyThread myThread1 = new MyThread(group1, "поток 1");
         MyThread myThread2 = new MyThread(group1, "поток 2");
         MyThread myThread3 = new MyThread(group1, "поток 3");
